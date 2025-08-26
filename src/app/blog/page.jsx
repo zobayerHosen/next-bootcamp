@@ -12,7 +12,7 @@ export default async function BlogPage() {
     <div className="container mx-auto py-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {posts.map((blog) => (
         <BlogCard key={blog.id} blog={blog} />
-      ))}
+      ))}  
     </div>
   );
 };
